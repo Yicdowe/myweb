@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    border: none;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background: #fff;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    background: #000000;
+}
+
+.top2 {
+    width: 1200px;
+    height: 50px;
+}
+
+.back {
+    position: relative;
+    margin-top: 10px;
+    background: #AFE1F5;
+    width: 1000px;
+    height: 900px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.login {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 5px 5px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: white;
+}
+
+.content {
+    width: 780px;
+    height: 690px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    float: right;
+    margin: 5px 5px 0 0;
+    background: white;
+}
+
+.content-top {
+    width: 770px;
+    height: 120px;
+    margin: 5px 5px;
+    background: #269abc;
+}
+
+.content-body {
+    width: 770px;
+    height: 550px;
+    margin-top: 8px;
+}
+
+.nav {
+    float: left;
+    width: 200px;
+    height: 532px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-left: 5px;
+    background: white;
+}
+
+.end {
+    float: left;
+    margin-top: 8px;
+    border-top: 1px solid #333;
+    width: 100%;
+    height: 200px;
+}
+
+.login form input {
+    border-radius: 3px;
+    border: solid 1px #bababa;
+    width: 140px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.login form button {
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-left: 30px;
+    float: left;
+    background: #dbdbdb;
+}
+
+.oLogin-layout {
+    margin: 20px 20px 15px 25px;
+}
+
+.top2 a {
+    color: #999999;
+    font-size: 1.3em;
+    font-family: "Adobe 黑体 Std R";
+}
+
+.top2 a:hover {
+    color: #ffffff;
+}
+
+.top2 p {
+    float: left;
+    padding: 11px 0px;
+}
+
+.top2 div {
+    display: inline-block;
+    padding: 11px 0px;
+    float: right;
+}
+
+.nav div {
+    margin-top: 10px;
+}
+
+.nav ul li {
+    padding: 14px 0px 1px 29px;
+    border-bottom: ridge #999999 1px;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    background: -webkit-linear-gradient(top, #dddddd 0%, #c2c2c2 90%);
+    background: -moz-linear-gradient(top, #dddddd 0%, #c2c2c2 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#c2c2c2', GradientType=0);
+}
+
+.content-top div {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Adobe 楷体 Std R";
+    display: inline-block;
+    margin-top: 33px;
+}
+
+.tab-layout {
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+.tab-layout table {
+    width: 770px;
+    table-layout: fixed;
+    cellpadding: 0;
+    cellspacing: 0;
+    border-collapse: collapse;
+}
+
+.tab-layout td {
+    text-align: left;
+    overflow: hidden;
+    height: 30px;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: solid 1px #000000;
+    padding-top: 10px;
+    padding-left: 6px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#c2c2c2', GradientType=0);
+    background: -webkit-linear-gradient(top, #dddddd 0%, #c2c2c2 90%);
+    background: -moz-linear-gradient(top, #dddddd 0%, #c2c2c2 90%);
+}
+
+.tab-layout tr {
+    cursor: pointer;
+}
+
+.tab-top td {
+    background: -webkit-linear-gradient(top, #81d551 0%, #6fbe57 90%);
+    background: -moz-linear-gradient(top, #81d551 0%, #6fbe57 90%);
+    cursor: auto;
+}
+
+.search input {
+    outline: none;
+    border-radius: 3px;
+    height: 26px;
+    border: solid 1px;
+}
+
+.search button {
+    border-radius: 3px;
+    padding: 0px 5px;
+    position: relative;
+    left: -3px;
+    height: 27px;
+    cursor: pointer;
+    border: solid 1px;
+    background: #dbdbdb;
+}
+
+.link ul li {
+    float: left;
+    margin: 0px 20px;
+}
+
+.link ul li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.link {
+    display: inline-block;
+    margin: 0px 300px;
+}
+
+.end div p {
+    font-size: 1.3em;
+    font-family: 微软雅黑;
+}
+
+.copyright {
+    margin-top: 60px;
+    text-align: center;
+}

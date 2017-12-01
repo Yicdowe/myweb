@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邮件查看系统</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<script>
+    $(function () {
+        $("#td-btn>tbody>tr").click(function () {
+            location.href = $(this).find("a").attr("href");
+        });
+    })
+</script>
+<div class="top" role="navigation">
+    <div class="top2">
+        <p><a href="#">Check E-Mail System</a></p>
+        <div>
+            <form class="search" action="#" method="post" role="search">
+                <input type="text" name="search" placeholder="输入你要查找的邮件">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+        <div style="margin-right: 20px">
+            <ul>
+                <li><a href="#">待定</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<div class="back">
+    <div class="login">
+        <form action="#" method="post">
+            <div class="oLogin-layout">
+                <input type="text" name="userName" placeholder="请输入用户名" required>
+                <input type="password" name="password" placeholder="请输入密码" required>
+            </div>
+            <button type="submit" style="background: #55a3ec">登录</button>
+            <button type="submit">注册</button>
+        </form>
+    </div>
+    <div class="content">
+        <div class="content-top">
+            <div></div>
+        </div>
+        <div class="content-body">
+            <div class="tab-layout">
+                <div>
+                    <table class="tab-top">
+                        <tr>
+                            <td style="width: 15px">
+                                <input type="checkbox">
+                            </td>
+                            <td style="width: 100px">发件人</td>
+                            <td>主题</td>
+                            <td style="width: 100px">时间</td>
+                        </tr>
+                    </table>
+                </div>
+                <table id="td-btn">
+                    <tr>
+                        <td style="width: 15px">
+                            <input type="checkbox">
+                        </td>
+                        <td style="width: 100px"><a href="#"></a>张三</td>
+                        <td>你好！</td>
+                        <td style="width: 100px">2017/11/29</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td><a href="#"></a>张三</td>
+                        <td>你好！</td>
+                        <td>2017/11/29</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td><a href="#"></a>张三</td>
+                        <td>你好！</td>
+                        <td>2017/11/29</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td><a href="#"></a>张三</td>
+                        <td>你好！</td>
+                        <td>2017/11/29</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div>
+            <ul>
+                <li><a href="#">收件箱</a></li>
+                <li><a href="#">心标邮件</a><span>&hearts;</span></li>
+                <li><a href="#">群邮件</a></li>
+                <li><a href="#">已删除</a></li>
+                <li><a href="#">垃圾箱</a></li>
+                <li><a href="#">待定</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="end">
+        <div>
+            <p style="font-style: normal">友情链接：</p>
+            <div class="link">
+                <ul>
+                    <li><a href="https://www.baidu.com">百度</a></li>
+                    <li><a href="https://www.bilibili.com">哔哩哔哩</a></li>
+                    <li><a href="https://www.mail.qq.com">QQ邮箱</a></li>
+                    <li><a href="https://www.taobao.com">淘宝网</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>暂无版权信息</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
